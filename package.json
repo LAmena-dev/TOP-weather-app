@@ -1,5 +1,5 @@
 {
-  "name": "top-to-do-list",
+  "name": "top-weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LAmena-dev/TOP-to-do-list.git"
+    "url": "git+https://github.com/LAmena-dev/TOP-weather-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LAmena-dev/TOP-to-do-list/issues"
+    "url": "https://github.com/LAmena-dev/TOP-weather-app/issues"
   },
-  "homepage": "https://github.com/LAmena-dev/TOP-to-do-list#readme",
+  "homepage": "https://github.com/LAmena-dev/TOP-weather-app#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
