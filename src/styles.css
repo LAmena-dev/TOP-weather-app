@@ -1,1 +1,32 @@
 /* stylesheet for to-do-list */
+
+:root {
+  --border-color: white;
+  --font-color: white;
+}
+
+body {
+  background-image: url(./images/bg-image.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: gray;
+  color: var(--font-color);
+  height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+div {
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.dayIcon {
+  height: 50px;
+}

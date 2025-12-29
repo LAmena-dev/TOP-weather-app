@@ -4,12 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>Weather App</title>
 </head>
 
 <body>
 
-    <h1></h1>
+    <header>
+        <input type="text" id="search" name="search_input" placeholder="Search Location...">
+        <h1 id="locationName"></h1>
+        <p class="currentTime"></p>
+        <button id="convert"></button>
+    </header>
+    <main class="container">
+        <div class="today">
+            <div class="major">
+                <img class="currentIcon dayIcon" src="#">
+                <p class="currentCond"></p>
+                <p class="currentDate"></p>
+            </div>
+            <div class="minor">
+                <h1 class="currentTemp dayTemp"></h1>
+                <p class="currentFeel">Feels like: <span></span></p>
+                <p class="currentHumid"></p>
+            </div>
+        </div>
+        <div class="week">
+
+        </div>
+    </main>
+
 
 </body>
 
