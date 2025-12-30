@@ -30,7 +30,7 @@ header {
   position: sticky;
   top: 0;
   border-bottom: 5px solid var(--border-color);
-  padding: 20px;
+  padding: 20px 40px;
   background-color: var(--header-bg);
 }
 
@@ -40,6 +40,7 @@ header {
   align-items: center;
   margin: 0;
   gap: 20px;
+  font-size: 1.5rem;
 }
 
 #search {
@@ -47,7 +48,6 @@ header {
 }
 
 .currentTime {
-  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -95,6 +95,12 @@ main {
     align-items: center;
     text-align: center;
   }
+}
+
+.week.none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div {

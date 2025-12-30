@@ -24,6 +24,7 @@ search.addEventListener("keydown", (e) => {
     const week = document.querySelector(".week");
     convertBtn.textContent = "°C";
     isCelsius = true;
+    week.classList.remove("none")
     week.innerHTML = "";
     weatherData(search.value);
   }
@@ -106,6 +107,7 @@ async function weatherData(searchParams = "London") {
     console.error(error);
 
     const week = document.querySelector(".week");
+    week.classList.add("none")
     week.innerHTML = "";
     week.textContent = `No weather data found for "${searchParams}".`;
   }
